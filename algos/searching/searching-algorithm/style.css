@@ -1,0 +1,84 @@
+
+
+* {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  min-height: 100vh;
+}
+
+.bar_chart {
+  margin-top: 5vh;
+  background-color: #4141cbd8;
+  padding: 50px 20px 10px 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.bar_chart #chart {
+  text-align: center;
+}
+form {
+  margin-top: 10px;
+  text-align: center;
+}
+label {
+  font-size: 10px;
+  cursor: pointer;
+}
+input {
+  cursor: pointer;
+}
+rect:hover {
+  cursor: pointer;
+}
+.none {
+  display: none;
+}
+#head{
+  font-family:sans-serif;
+}
+.stop {
+  background-image: linear-gradient(
+    to right,
+    #c65505 0%,
+    #dd4831 51%,
+    #c26019 100%
+  );
+}
+footer {
+  width: 100%;
+  color: #8c8c8c;
+
+  margin: auto;
+  margin-top: 5vh;
+}
+
+footer p {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer .footer_text {
+  margin: auto;
+}
+
+footer .love {
+  color: red;
+}
+footer a {
+  color: #2e2e2e;
+}
+.sound {
+  text-align: right;
+}
+.sound a {
+  background: rgb(165, 115, 115);
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+.line-through {
+  text-decoration: line-through !important;
+}

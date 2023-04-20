@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #343f51;
+}
+
+#main {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+}
+
+#header {
+  flex: 0 1 80px;
+  background-color: white;
+  /* height: 80px; */
+}
+
+#demo{
+  text-align: center;
+  font-size: 27px;
+  color: rgb(244, 237, 237);
+  padding-top: 30px;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+#title {
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  padding-top: 20px;
+  font-weight: bold;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+#container {
+  flex: 1 1 auto;
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.algo_container {
+  flex: 25%;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.image_Container {
+  max-width: 90%;
+  margin: 10px auto;
+  /* border: 2px solid black ; */
+}
+
+.image_Container:hover {
+  max-width: 97%;
+  animation: transition 0.2s;
+}
+
+.image {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 20px;
+}
+#demo{
+  max-width: 200%;
+  
+}
+
+footer {
+  width: 100%;
+  color: #fffefe;
+  margin: auto;
+  margin-bottom: 8vh;
+}
+
+footer p {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-family: cursive;
+}
+
+footer .footer_text {
+  margin: auto;
+}
+
+footer .love {
+  color: red;
+}
+footer a {
+  color: #f4ecec;
+}
+
+
+@keyframes transition {
+  from {
+    max-width: 90%;
+  }
+  to {
+    max-width: 97%;
+  }
+}
+
+@keyframes transition {
+  from {
+    max-width: 90%;
+  }
+  to {
+    max-width: 97%;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #dcebff;
+  font-size: 20px;
+}
+
+@media (max-width: 1100px) {
+  .container {
+    flex: 0 0 48%;
+  }
+}
