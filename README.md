@@ -54,10 +54,10 @@ The primary objective of this project is to develop a web application that funct
 ## Screenshots
 
 ### Searching Algorithm Visualizer
-![Searching Algorithm Visualizer](MergeSort.png)
+![Searching Algorithm Visualizer](Searching.png)
 
 ### Sorting Algorithm Visualizer
-![Sorting Algorithm Visualizer](path/to/sorting-visualizer-screenshot.png)
+![Sorting Algorithm Visualizer](MergeSort.png)
 
 ### Graph Algorithm Visualizer
 ![Graph Algorithm Visualizer](DijkstraAlgo.png)
