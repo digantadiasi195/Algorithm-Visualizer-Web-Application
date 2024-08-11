@@ -74,9 +74,8 @@ The primary objective of this project is to develop a web application that funct
 - **React.js** (if applicable): For building the interactive UI components.
 
 ---
-
 ## How to Run
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/algorithm-visualizer.git
+   git clone https://github.com/digantadiasi195/Algorithm-Visualizer-Web-Application.git
