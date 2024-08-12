@@ -1,4 +1,5 @@
 # Algorithm Visualizer Web Application
+**Live Demo:** [Visit the Application](https://joyful-axolotl-96df38.netlify.app/)
 
 ## Introduction
 
@@ -40,8 +41,10 @@ The primary objective of this project is to develop a web application that funct
    - Users can interactively visualize the structure of the BST as nodes are added or removed.
 
 ---
+
 ## Homepage
 ![Home Page of my web Page](Homepage.png)
+
 ## Features
 
 - **Intuitive Interface**: User-friendly design with clear options for selecting algorithms and customizing the visualization.
@@ -71,9 +74,10 @@ The primary objective of this project is to develop a web application that funct
 
 - **HTML/CSS**: For structuring and styling the web application.
 - **JavaScript**: Core language used for implementing the algorithms and visualizations.
-- **React.js** (if applicable): For building the interactive UI components.
+- **React.js**: For building the interactive UI components.
 
 ---
+
 ## How to Run
 
 1. Clone the repository:
